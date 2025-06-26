@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+nav .desktop-links a.active {
+	color: var(--color-sky-600);
+}
+
+nav .mobile-links a.active {
+	color: var(--color-cyan-50);
+}
+
+section.taps .nav-taps a.active {
+	backgrond-color: var(--color-sky-600);
+}
+
+@utility flex-between {
+	@apply flex justify-between items-center;
+}
+
+@utility my-transition {
+	@apply transition-all duration-300;
+}
+
+@utility centered-container {
+	@apply container mx-auto px-3;
+}
