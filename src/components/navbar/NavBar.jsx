@@ -40,11 +40,11 @@ export default function NavBar() {
 						</ul>
 					</section>
 					<section
-						className={`mobile-links z-1 w-full bg-sky-600 absolute left-0 my-transition  md:hidden ${
-							isToggeld ? "top-[58px]" : "top-[-200%]"
+						className={`mobile-links w-full z-1 bg-sky-600 absolute left-0 my-transition  md:hidden ${
+							isToggeld ? "top-[58px] opacity-100" : "top-[-200%] opacity-0"
 						}`}
 					>
-						<ul className="">
+						<ul className="z-1">
 							<li>
 								<NavLink className="capitalize text-cyan-50 block p-4" to="/">
 									home
@@ -62,7 +62,7 @@ export default function NavBar() {
 					</section>
 					<section
 						className={`p-5 cursor-pointe md:hidden my-transition ${
-							isToggeld ? "bg-sky-600 " : undefined
+							isToggeld ? "bg-sky-600" : undefined
 						}`}
 						onClick={toggle}
 					>

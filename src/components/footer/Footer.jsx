@@ -2,7 +2,7 @@ export default function Footer() {
 	return (
 		<footer className="py-10 bg-slate-200">
 			<section className="centered-container">
-				<section className="flex justify-between flex-col md:flex-row">
+				<section className="flex justify-between flex-col gap-y-7 md:flex-row">
 					<section className="w-full md:w-[30%]">
 						<h3 className="uppercase text-neutral-700 mb-5">about velocity</h3>
 						<p className="text-sm text-neutral-500">
